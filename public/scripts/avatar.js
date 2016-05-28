@@ -1,4 +1,7 @@
 var Avatar = React.createClass({
+	propTypes: {
+		pagename: React.PropTypes.string
+	},
 	render: function() {
 		return (
 			<div>
